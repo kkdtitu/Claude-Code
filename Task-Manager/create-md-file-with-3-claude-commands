@@ -1,0 +1,7 @@
+https://code.claude.com/docs/en/skills
+
+Run the following in claude ai 
+
+create 3 markdown files for (1) create a python file named task-manager.py that can add tasks, list tasks and mark tasks as completed. Use a simple in memory list (2) generate a python file named utils.py with helper functions for formatting output and validating input (3) create main.py that imports task_manager and utils. It should show a small menu in the terminal: Add task, List task, Complete task. Then run the corresponding functions
+
+create a markdown file with 3 commands (1) create a python file named task-manager.py that can add tasks, list tasks and mark tasks as completed. Use a simple in memory list (2) generate a python file named utils.py with helper functions for formatting output and validating input (3) create main.py that imports task_manager and utils. It should show a small menu in the terminal: Add task, List task, Complete task. Then run the corresponding functions

@@ -1,0 +1,7 @@
+https://code.claude.com/docs/en/skills
+
+cp the markdown file to ~/.claude/skills/gen-data-analysis/SKILL.md
+restart Claude Code and invoke with /gen-data-analysis
+
+cp the markdown file to ~/.claude/skills/gen-data-analysis-imdb/SKILL.md
+restart Claude Code and invoke with /gen-data-analysis-imdb

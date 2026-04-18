@@ -1,0 +1,7 @@
+https://code.claude.com/docs/en/skills
+
+Run the following in claude ai
+
+create a markdown file SKILL.md to  generate python code. SKILL.md file will be placed in ~/.claude/skills/gen-api-call-identify-image/SKILL.md. It will be executed in claude code as /gen-api-call-identify-image. The generated code will make claude API call and identify an image. The code should use API key to make the API call. API key should be in the .env file. The code should ask the user to specify the full path of the input image file
+
+create a markdown file SKILL.md to  generate python code. SKILL.md file will be placed in ~/.claude/skills/gen-api-call-identify-image/SKILL.md. It will be executed in claude code as /gen-api-call-identify-image. The generated code will make claude API call and identify an image. The code should use API key to make the API call. API key should be in the .env file. The code should ask the user to specify the full path of the input image file

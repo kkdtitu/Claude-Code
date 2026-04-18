@@ -1,0 +1,8 @@
+https://code.claude.com/docs/en/skills
+
+Run the following in claude ai
+
+create a markdown file: create a python code data_analysis_imdb.py. It should ask the user to specify the input CSV filename and full path. It should also ask the user for the output CSV filename. The code should use pandas/dataframe to do group-by 'Genre' and calculate 4 things for each group - count, average 'IMDB_Rating', max 'IMDB_Rating'  and 'Series_Title' with max 'IMDB_Rating'. The output data should be stored in the output CSV file.
+
+
+create a markdown file: create a python code data_analysis.py. It should ask the user to specify the input CSV filename and full path. It should also ask the user for the output CSV filename. The code should use pandas/dataframe to do group-by 'Duration' and calculate 3 things for each group - count, average 'Pulse' and average 'Calories'. The output data should be stored in the output CSV file.

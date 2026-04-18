@@ -1,0 +1,11 @@
+https://code.claude.com/docs/en/skills
+
+cp the markdown files to the following
+~/.claude/skills/gen-task-manager/SKILL.md
+~/.claude/skills/gen-utils/SKILL.md
+~/.claude/skills/gen-main/SKILL.md
+
+restart Claude Code and invoke with 
+/gen-task-manager
+/gen-utils
+/gen-main
