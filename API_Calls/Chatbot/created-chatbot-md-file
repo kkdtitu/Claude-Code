@@ -1,0 +1,7 @@
+https://code.claude.com/docs/en/skills
+
+cp the markdown file to ~/.claude/skills/gen-chatbot/SKILL.md
+restart Claude Code and invoke with /gen-chatbot
+
+cp the markdown file to ~/.claude/skills/gen-chatbot/SKILL.md
+restart Claude Code and invoke with /gen-chatbot
