@@ -1,0 +1,38 @@
+https://code.claude.com/docs/en/skills
+
+Run the following in claude ai
+
+Create SKILL.md file for python text processor
+Should be a multi turn API conversations. 
+Keep full conversation history and send to Claude as part of API requests (most recent 20)
+First ask the user to enter the text input to be analyzed and End the text input with pressing Ctrl+D on Mac/Linux.
+Then ask the user what to do with input text / instruction eg. summarize key points, shorten text, make it more formal, etc. Enf the instruction by pressing Ctrl+D on Mac/Linux.
+Then ask the user if output is OK or do more.
+Repeat.
+If the user enters "quit", then end the program execution. 
+API keys should be in .env. 
+Use APIError and RateLimitError for stable API responses
+At the end of program execution,output shold be dumped into a JSON file
+Use System prompt and ensure the text processor as friendly AI assistant
+(1) Ensure output is valid json format, focused and not too long
+(2) Ask clarifying questions if needed before generating output
+(3) if the user is stuck, guide them and motivate them to ask the right question, do not guess
+
+
+Create SKILL.md file for python text processor
+Should be a multi turn API conversations. 
+Keep full conversation history and send to Claude as part of API requests (most recent 20)
+First ask the user to enter the text input to be analyzed and End the text input with pressing Ctrl+D on Mac/Linux.
+Then ask the user what to do with input text / instruction eg. summarize key points, shorten text, make it more formal, etc. Enf the instruction by pressing Ctrl+D on Mac/Linux.
+Then ask the user if output is OK or do more.
+Repeat.
+If the user enters "quit", then end the program execution. 
+API keys should be in .env. 
+Use APIError and RateLimitError for stable API responses
+At the end of program execution,output shold be dumped into a JSON file
+Use System prompt and ensure the text processor as friendly AI assistant
+(1) Ensure output is valid json format, focused and not too long
+(2) Ask clarifying questions if needed before generating output
+(3) if the user is stuck, guide them and motivate them to ask the right question, do not guess
+
+

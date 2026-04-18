@@ -1,0 +1,7 @@
+https://code.claude.com/docs/en/skills
+
+cp the markdown file to ~/.claude/skills/gen-text-processor/SKILL.md
+restart Claude Code and invoke with /gen-text-processor
+
+cp the markdown file to ~/.claude/skills/gen-text-processor/SKILL.md
+restart Claude Code and invoke with /gen-text-processor
