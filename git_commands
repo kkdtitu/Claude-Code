@@ -1,0 +1,14 @@
+vi .gitignore
+rm -rf .git
+git init
+git config --global user.name "Koushik K Das"
+git add -A
+git status
+git commit -m "commit April 17, 2026"
+git remote add kkdtitu-cc https://github.com/kkdtitu/Claude-Code
+git config http.postBuffer 524288000
+git push -u kkdtitu-cc main
+
+git add -A
+git status
+git commit -m "commit April 17, 2026"
