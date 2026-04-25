@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.env*
+venv/
+env/
+.venv/
+
+# Google OAuth credentials - NEVER commit these!
+credentials.json
+token.json
+*.json
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
