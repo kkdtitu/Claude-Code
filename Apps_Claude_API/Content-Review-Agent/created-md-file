@@ -1,0 +1,7 @@
+https://code.claude.com/docs/en/skills
+
+cp the markdown file to ~/.claude/skills/content-review-agent/SKILL.md
+restart Claude Code and invoke with /content-review-agent
+
+cp the markdown file to ~/.claude/skills/content-review-agent/SKILL.md
+restart Claude Code and invoke with /content-review-agent
