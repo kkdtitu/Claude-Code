@@ -1,0 +1,28 @@
+https://code.claude.com/docs/en/skills
+
+Run the following in claude ai - I have been using the Claude web browser (and not the desktop app) to run the following and generate SKILL.md file
+If other files are generated other that SKILL.md then tell Claude "update SKILL.md to generate only python file"
+Then at the top of SKILL.md file manually add the following line if not present:
+# SKILL.md — Personalized Python Chatbot
+
+Create SKILL.md file for python chatbot - web browser based User Interface based on Flask and running on http://127.0.0.1:5000/
+Dont create any other file (eg. .env etc) other than the .py file 
+Enable Claude streaming 
+Enable API error handling including connectivity, timeout, etc. and also Rate Limit errors
+Error handling should limit to maximum 5 retries - each time with a delay of 10 seconds 
+Should be a multi turn API conversations. 
+Keep full conversation history and send to Claude as part of every API requests (most recent 20)
+API keys should be in .env. 
+Use APIError and RateLimitError for stable chatbot responses
+Output shold be JSON
+Also the chatbot should ask for the user name, profession and add this context to the responses 
+Use System prompt and ensure the chatbot as friendly AI assistant
+(1) Ensure output is valid json format, focused and not too long
+(2) Ensure the conversation is friendly, human language, not too forma
+(3) Ask follow-up questions through the JSON response (use "follow-up" key) before long answers 
+(4) If the user starts with hi/hello, start with a warm greeting
+(5) if the user is stuck, guide them and motivate them to ask the right question, do not guess
+(6) Avoid unsafe output
+(7) if the user types "quit" or "exit" then quit
+
+
